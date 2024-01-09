@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>宠物领养中心</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		img{
+			height:850px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div th:insert="~{navigation::nav}"></div>
+
+<div class="container-fluid">
+    <div class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="2500" id="myCarousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-sli de-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+<div class="row">
+
+  <!--      <div class="carousel-inner"> -->
+            <div class="carousel-item active">
+                <img src="/img/slider/7.jpg" alt="" class="d-block">
+                <div class="carousel-caption d-none d-sm-block" style="position: absolute;top: 300px;font-size: 3rem">
+                    <p>一生的守护</p>
+                    <p>携一份陪伴在身边，放一份爱在心间！</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/slider/2.jpg" alt="" class="d-block" >
+                <div class="carousel-caption d-none d-sm-block" style="position: absolute;top: 300px;font-size: 3rem">
+                    <p>与你相思相守，宠爱一生</p>
+                    <p>宠物宝贝到您家，开心快乐你我它！</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/slider/6.jpg" alt="" class="d-block">
+                <div class="carousel-caption d-none d-sm-block" style="position: absolute;top: 300px;font-size: 3rem">
+                    <p>为你的宠物着想，为你的爱导航</p>
+                    <p>携一份陪伴在身边，放一份爱在心间！</p>
+                </div>
+            </div>
+			<div class="carousel-item ">
+                <img src="/img/slider/4.jpg" alt="" class="d-block">
+                <div class="carousel-caption d-none d-sm-block" style="position: absolute;top: 300px;font-size: 3rem">
+                    <p>用爱去了解对方，用梦想去爱对方</p>
+                    <p>宠物之家，心境平和，一切都在梦中！</p>
+                </div>
+            </div>
+			<div class="carousel-item ">
+                <img src="/img/slider/5.jpg" alt="" class="d-block ">
+                <div class="carousel-caption d-none d-sm-block" style="position: absolute;top: 300px;font-size: 3rem">
+                    <p>因为宠物和亲情，因为驴肉火锅</p>
+                    <p>把它带回家吧，它穿过层层海洋也记得你的温柔！</p>
+                </div>
+            </div>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+
+
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
